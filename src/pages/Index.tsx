@@ -47,7 +47,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
+      <div className="bg-primary text-primary-foreground py-2 px-4 text-center text-sm">
+        Директор предприятия: Борисова Полина Александровна
+      </div>
+      <header className="fixed top-10 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <h1 className="text-3xl font-bold tracking-tight text-primary">ПРЕМИУМ ЖИР</h1>
           <div className="hidden md:flex gap-8">
@@ -62,7 +65,7 @@ const Index = () => {
         </nav>
       </header>
 
-      <section className="pt-32 pb-20 px-4 animate-fade-in">
+      <section className="pt-36 pb-20 px-4 animate-fade-in">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
