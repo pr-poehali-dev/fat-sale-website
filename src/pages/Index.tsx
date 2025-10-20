@@ -7,7 +7,7 @@ const Index = () => {
   const products = [
     {
       id: 1,
-      name: "Премиум жир утиный",
+      name: "Премиум жир Полина",
       volume: "200 мл",
       price: "850 ₽",
       image: "https://cdn.poehali.dev/projects/4b19f36d-3f6e-428c-9522-fe3db4f21ce8/files/515e4c09-bf1d-4e44-917f-25e779e35161.jpg",
