@@ -221,8 +221,10 @@ const Index = () => {
                 <Button variant="outline" size="icon" className="rounded-full">
                   <Icon name="Instagram" size={20} />
                 </Button>
-                <Button variant="outline" size="icon" className="rounded-full">
-                  <Icon name="Send" size={20} />
+                <Button variant="outline" size="icon" className="rounded-full" asChild>
+                  <a href="https://t.me/Pollik995" target="_blank" rel="noopener noreferrer">
+                    <Icon name="Send" size={20} />
+                  </a>
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full">
                   <Icon name="MessageCircle" size={20} />
