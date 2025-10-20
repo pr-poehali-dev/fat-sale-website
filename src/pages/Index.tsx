@@ -58,9 +58,11 @@ const Index = () => {
             <a href="#catalog" className="text-foreground hover:text-accent transition-colors">Каталог</a>
             <a href="#certificates" className="text-foreground hover:text-accent transition-colors">Сертификаты</a>
           </div>
-          <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
-            <Icon name="Phone" size={18} className="mr-2" />
-            Связаться
+          <Button className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
+            <a href="tel:+79806912260">
+              <Icon name="Phone" size={18} className="mr-2" />
+              Связаться
+            </a>
           </Button>
         </nav>
       </header>
@@ -205,10 +207,10 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4 text-foreground">Контакты</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p className="flex items-center gap-2">
+                <a href="tel:+79806912260" className="flex items-center gap-2 hover:text-accent transition-colors">
                   <Icon name="Phone" size={16} />
-                  +7 (999) 123-45-67
-                </p>
+                  +7 (980) 691-22-60
+                </a>
                 <p className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
                   info@premium-fat.ru
