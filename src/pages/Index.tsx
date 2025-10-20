@@ -15,7 +15,7 @@ const Index = () => {
     },
     {
       id: 2,
-      name: "Жир говяжий классический",
+      name: "Жир Классический",
       volume: "300 мл",
       price: "650 ₽",
       image: "https://cdn.poehali.dev/projects/4b19f36d-3f6e-428c-9522-fe3db4f21ce8/files/cd74fa5c-3728-408c-8a32-76520df58a51.jpg",
