@@ -23,7 +23,7 @@ const Index = () => {
     },
     {
       id: 3,
-      name: "Гусиный жир для жарки",
+      name: "Жир для жарки Полины",
       volume: "250 мл",
       price: "920 ₽",
       image: "https://cdn.poehali.dev/projects/4b19f36d-3f6e-428c-9522-fe3db4f21ce8/files/515e4c09-bf1d-4e44-917f-25e779e35161.jpg",
