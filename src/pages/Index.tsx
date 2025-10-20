@@ -72,9 +72,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-accent text-accent-foreground">Премиальное качество</Badge>
-              <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-primary">
-                Натуральный жир высшего качества
-              </h2>
+              <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-primary">Натуральный жир От Полины</h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Производим экологически чистый жир из отборного сырья. Каждая партия проходит многоступенчатый контроль качества и имеет все необходимые сертификаты безопасности.
               </p>
